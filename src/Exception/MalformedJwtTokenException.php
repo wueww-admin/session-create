@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SessionCreate\Exceptions;
+namespace SessionCreate\Exception;
 
 
 class MalformedJwtTokenException extends \RuntimeException

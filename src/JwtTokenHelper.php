@@ -4,7 +4,7 @@
 namespace SessionCreate;
 
 
-use SessionCreate\Exceptions\MalformedJwtTokenException;
+use SessionCreate\Exception\MalformedJwtTokenException;
 use TopicAdvisor\Lambda\RuntimeApi\Http\HttpRequestInterface;
 
 class JwtTokenHelper
